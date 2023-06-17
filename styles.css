@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: hwb(252 98% 0% / 0.973);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1d02021c;
+    color: rgba(255, 250, 250, 0.925);
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #e7f1f7;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Section Styles */
+  section {
+    background-color: #e7f1f7;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  ul li a:hover {
+    background-color: #1bd5db;
+    color: #fff;
+  }
+  
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Profile Picture */
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: url("rayty.jpg");
+    background-size: 100%;
+    background-position: center;
+  }
+  
+  /* Background Image */
+  body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #e7f1f7;
+    color: #3c9eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
